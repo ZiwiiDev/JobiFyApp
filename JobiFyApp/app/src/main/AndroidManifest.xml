@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- PERMISOS -->
+    <uses-permission android:name="android.permission.INTERNET" />                  <!-- Permiso para poder acceder a internet -->
+
+    <uses-permission android:name="android.permission.CAMERA" />                    <!-- Permiso para utilizar la cámara -->
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logotiponegro"
+        android:requestLegacyExternalStorage="true"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logotiponegro_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JobiFyApp"
+        tools:targetApi="31">
+
+        <!-- Declaración de actividades -->
+        <activity android:name=".CategoriasActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".SolicitudesActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".ActualizarVacante" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".VacantesActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".MainActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".LoginActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".RegisterActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".ContactoActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".EditPerfilActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".AgregarOfertaActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".EleccionActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".NewUserType" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".AyudaActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".DetallesActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".UsuariosActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".PerfilActivity" android:windowSoftInputMode="adjustPan"/>
+
+        <!-- Declaración de actividades de tipo "pop-up" -->
+        <activity
+            android:name=".popups.PopEditCategoria"
+            android:theme="@style/AppTheme.PopUp"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".popups.PopAgregarCategoria"
+            android:theme="@style/AppTheme.PopUp"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".popups.PopDeleteUsuario"
+            android:theme="@style/AppTheme.PopUp"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".popups.PopDeleteSolicitud"
+            android:theme="@style/AppTheme.PopUp"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".popups.PopDeleteVacante"
+            android:theme="@style/AppTheme.PopUp"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".popups.PopDeletePerfil"
+            android:theme="@style/AppTheme.PopUp"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".popups.PopCambiarImagen"
+            android:theme="@style/AppTheme.PopUp"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".popups.PopReset"
+            android:theme="@style/AppTheme.PopUp"
+            android:windowSoftInputMode="adjustPan"/>
+
+        <!-- Declaración de actividad de inicio (lanzador) -->
+        <activity
+            android:name=".InicioActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

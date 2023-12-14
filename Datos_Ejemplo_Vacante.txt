@@ -1,0 +1,32 @@
+------------------------------------------------------------------------------------------------------------------
+
+- Datos de Ejemplo | JobiFy -
+
+Gerente de RRHH
+17000.0
+0
+Recursos Humanos
+- REQUISITOS - Licenciatura en Administración o Marketing. Experiencia mínima de 2 años en puesto similar.
+Edad entre 22 y 35 años. Inglés avanzado. Administración de personal (altas, bajas y modificación de salario,
+elaboración y revisión de contratos, cálculo de nómina...
+
+
+Ingeniero Civil
+20000.0
+0
+Arquitectura
+Se requiere estar titulado como Arquitecto y/o Ingeniero Civil. 
+Función principal: Supervisión y control de obra, cuantificación de avances, 
+estimaciones de avance de obra... Habilidades: Negociación, liderazgo, 
+capacidad para resolver conflictos, Excel...
+
+
+Programador Java
+25000.0
+1
+Desarrollo de software
+OBJETIVO: DISEÑAR, CREAR Y REALIZAR MANTENIMIENTO A PÁGINAS Y APLICACIONES WEB. 
+REQUISITOS: EDAD: 25 A 35 AÑOS. LICENCIATURA: DESARROLLO DE SOFTWARE. EXPERIENCIA EN JAVA (2 AÑOS).
+
+------------------------------------------------------------------------------------------------------------------
+

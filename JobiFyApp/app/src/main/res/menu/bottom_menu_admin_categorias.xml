@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/inicio"
+        android:icon="@mipmap/inicio_foreground"
+        android:title="@string/inicio" />
+
+    <item
+        android:id="@+id/vacantes"
+        android:icon="@mipmap/iconovacante_foreground"
+        android:title="@string/vacantes" />
+
+    <item
+        android:id="@+id/usuarios"
+        android:icon="@mipmap/iconousuarios_foreground"
+        android:title="@string/usuarios" />
+
+</menu>

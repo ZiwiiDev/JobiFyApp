@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/cardView"
+    app:cardCornerRadius="25dp"
+    app:cardElevation="2dp"
+    android:id="@+id/cardViewVacantes"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/adapter_categorias"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nombreVacanteCardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="left"
+            android:text="Texto"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/categoriaVacanteCardViewTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nombreVacanteCardView"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="@string/categoria"
+            android:textSize="12sp"
+            android:typeface="serif"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/categoriaVacanteCardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nombreVacanteCardView"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toEndOf="@+id/categoriaVacanteCardViewTitulo"
+            android:gravity="left"
+            android:text="Texto"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/fechaVacanteCardViewTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/categoriaVacanteCardViewTitulo"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="right"
+            android:textColor="@color/white"
+            android:text="@string/fecha"
+            android:textSize="12sp"
+            android:typeface="serif"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/fechaVacanteCardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/categoriaVacanteCardView"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toEndOf="@+id/fechaVacanteCardViewTitulo"
+            android:gravity="left"
+            android:text="Texto"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/salarioVacanteCardViewTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fechaVacanteCardViewTitulo"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="right"
+            android:layout_marginTop="-7dp"
+            android:textColor="@color/white"
+            android:text="@string/salario"
+            android:textSize="12sp"
+            android:typeface="serif"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/salarioVacanteCardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fechaVacanteCardView"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toEndOf="@+id/salarioVacanteCardViewTitulo"
+            android:gravity="left"
+            android:text="Texto"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/simboloEuro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fechaVacanteCardView"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/salarioVacanteCardView"
+            android:gravity="left"
+            android:text="@string/euro"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            tools:ignore="RtlHardcoded" />
+
+        <ImageView
+            android:id="@+id/imageViewEditar"
+            android:layout_width="55dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="275dp"
+            android:layout_marginTop="3dp"
+            android:contentDescription=""
+            app:srcCompat="@mipmap/imagevieweditar_foreground" />
+
+        <ImageView
+            android:id="@+id/imageViewEliminar"
+            android:layout_width="55dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="3dp"
+            app:srcCompat="@mipmap/imagevieweliminar_foreground" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="-3dp"
+        android:orientation="horizontal"
+        android:padding="@dimen/default_padding">
+
+        <EditText
+            android:id="@+id/buscarVacanteDestacada"
+            android:layout_width="315dp"
+            android:layout_height="51dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:hint="@string/hintBarraBusquedaDestacado"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="300dp"
+        android:background="?android:attr/listDivider"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="310dp"
+        android:text="@string/destacadas"
+        android:textColor="@color/azulLogo"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold"
+        tools:ignore="RelativeOverlap" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="360dp"
+        android:background="?android:attr/listDivider"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="70dp"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@color/azulLogo"
+        android:text="@string/bienvenidaUsuario"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/usuarioNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="71dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="@color/moradoUltimo"
+        android:text=""
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="175dp"
+        android:text="@string/trabajoTitulo"
+        android:textColor="@color/azulLogo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="RelativeOverlap" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="25dp"
+        android:contentDescription=""
+        app:srcCompat="@mipmap/logojobifyapp_foreground" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewVacantesDestacadas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="0dp"
+        app:menu="@menu/bottom_menu_empresa"
+        style="@style/BottomNavigationViewStyle" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigationCandidato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="0dp"
+        app:menu="@menu/bottom_menu_candidato"
+        style="@style/BottomNavigationViewStyle" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigationAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="0dp"
+        app:menu="@menu/bottom_menu_admin"
+        style="@style/BottomNavigationViewStyle" />
+
+</RelativeLayout>

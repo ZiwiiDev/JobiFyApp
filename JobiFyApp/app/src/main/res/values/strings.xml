@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">JobiFy</string>
+
+    <string name="hintBarraBusquedaDestacado">Busca una vacante por su nombre…</string>
+    <string name="hintBarraBusquedeSolicitud">Busca una solicitud por nombre de vacante…</string>
+    <string name="hintBarraBusquedeUsuario">Busca un usuario por nombre, email o username…</string>
+    <string name="hintBarraBusquedeCategoria">Busca una categoría por nombre…</string>
+
+    <string name="destacadas">🔹 Destacados 🔹</string>
+    <string name="ofertas">🔹 Vacantes 🔹</string>
+    <string name="solicitudesTitulo">🔹 Solicitudes 🔹</string>
+    <string name="usuariosTitulo">🔹 Usuarios 🔹</string>
+    <string name="categorias">🔹 Categorías 🔹</string>
+
+    <string name="agregarOferta">🔹 Añadir Nueva Vacante 🔹</string>
+    <string name="actualizarOferta">🔹 Actualizar Vacante 🔹</string>
+    <string name="agregarCategoria">🔹 Añadir Nueva Categoría 🔹</string>
+    <string name="editarCategoria">🔹 Editar Categoría 🔹</string>
+
+    <string name="actualizar">Actualizar</string>
+    <string name="restPass">Enviar</string>
+    <string name="btnVolver">Volver</string>
+
+    <string name="categoriaExiste">¡La categoría ya existe!</string>
+    <string name="errorCategoriaInsertar">¡Error al insertar la categoría!</string>
+    <string name="vacanteExiste">¡La vacante ya existe!</string>
+    <string name="actualizaVacante">¡Vacante actualizada!</string>
+    <string name="borrarVacante">¡Vacante no encontrada!</string>
+    <string name="errorCategoria">¡Error al obtener la categoría seleccionada!</string>
+    <string name="spinnerVacio">¡No hay categorías disponibles!</string>
+    <string name="spinnerNoSeleccionado">¡No se ha seleccionado ninguna categoría!</string>
+    <string name="categoriaDesconocida">¡Categoría desconocida!</string>
+    <string name="categoriaVacia">¡La categoría seleccionada está vacía!</string>
+    <string name="agregarCorrectamenteCategoria">¡Categoría agregada correctamente!</string>
+    <string name="errorAgregarCategoria">¡El nombre ingresado no es correcto!</string>
+    <string name="editarCorrectamenteCategoria">¡Categoría editada correctamente!</string>
+    <string name="categoriaEliminada">¡Categoría eliminada!</string>
+    <string name="trabajoTitulo">¡Encuentra el trabajo de tus sueños!</string>
+    <string name="binvenida">¡Inicia Sesión!</string>
+    <string name="errorLogin">¡El usuario o la contraseña son incorrectos!</string>
+    <string name="correctoLogin">¡Se ha logueado correctamente!</string>
+    <string name="correoRestContra">Introduce el email con el que estás registrado en JobiFy y recibirás un correo para restablecer tu contraseña.</string>
+    <string name="needEmail">¡Tienes que insertar un email válido!</string>
+    <string name="coincidirEmail">¡No coinciden!</string>
+    <string name="invalidEmail">¡No se reconoce este correo electrónico, puede que no esté registrado en la aplicación!</string>
+    <string name="noValidoEmail">¡El email está mal formulado!</string>
+    <string name="emailActualizado">¡El email se ha actualizado correctamente!</string>
+    <string name="errorActualizarEmail">¡Ha ocurrido un error al intentar actualizar el email!</string>
+    <string name="contraCorta">¡La contraseña es demasiado corta (mínimo 6 caracteres)!</string>
+    <string name="needPassword">¡Tienes que insertar la contraseña!</string>
+    <string name="mailsend">¡Correo enviado correctamente!</string>
+    <string name="cuentaCreada">¡Cuenta creada!</string>
+    <string name="eliminadaVacante">¡Vacante eliminada!</string>
+
+    <string name="tituloPerfilBorrar">· Confirmar Borrar Cuenta ·</string>
+    <string name="tituloVacanteBorrar">· Confirmar Borrar Vacante ·</string>
+    <string name="tituloUsuarioBorrar">· Confirmar Borrar Usuario ·</string>
+    <string name="tituloSolicitudBorrar">· Confirmar Borrar Solicitud ·</string>
+    <string name="tituloSeleccionarImagen">· Cambiar Imagen ·</string>
+    <string name="resp">· Restablecer Contraseña ·</string>
+
+    <string name="confirmarBorradoPerfil">¡La CUENTA será borrada permanentemente! ¿Seguro que quieres hacerlo?</string>
+    <string name="confirmarBorradoVacante">¡La VACANTE será borrada permanentemente! ¿Seguro que quieres hacerlo?</string>
+    <string name="confirmarBorradoSolicitud">¡La SOLICITUD será borrada permanentemente! ¿Seguro que quieres hacerlo?</string>
+    <string name="confirmarBorradoUsuario">¡El USUARIO será borrado permanentemente! ¿Seguro que quieres hacerlo?</string>
+
+    <string name="seleccionarImagen">Seleccionar una imagen desde:</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+    <string name="camara">Cámara</string>
+    <string name="galería">Galería</string>
+
+    <string name="usuario">Nombre y apellidos</string>
+    <string name="categoria">Categoría:</string>
+    <string name="correctoEliminarCuenta">¡Cuenta eliminada exitosamente!</string>
+    <string name="errorEliminarCuenta">¡Error al eliminar la cuenta. Inténtalo nuevamente!</string>
+    <string name="cuentaEliminarError">¡No se encontró una cuenta de usuario!</string>¡
+
+    <string name="avisoSpinner">Elige una categoría…</string>
+    <string-array name="spinnerCategoria">
+        <item>Programación</item>
+        <item>Diseño</item>
+    </string-array>
+    <string-array name="opciones_categoria">
+        <item>Editar</item>
+        <item>Eliminar</item>
+    </string-array>
+
+    <string name="solicitudCorrecto">¡Solicitud enviada con éxito!</string>
+    <string name="correctoCerrarSesion">¡Se ha cerrado sesión correctamente!</string>
+    <string name="yaDescargadoCV">¡El Currículum ya ha sido descargado!</string>
+    <string name="descargarCVcorrecto">¡Currículum descargado correctamente!</string>
+    <string name="noCorrectoCV">¡Ha ocurrido un error al intentar descargar el Currículum!</string>
+    <string name="errorSolicitud">¡No se ha podido enviar tu Currículum!</string>
+    <string name="solicitudError">¡Debes seleccionar un archivo adjunto!</string>
+    <string name="nombreCandidato">Nombre del candidato:</string>
+    <string name="emailCandidato">Email:</string>
+    <string name="emailCandidatoCardView">Email del candidato:</string>
+    <string name="numSolicitud">Número de solicitud:</string>
+    <string name="fecha">Fecha de Publicación:</string>
+    <string name="fechaSolicitud">Fecha de envío:</string>
+    <string name="salario">Salario:</string>
+    <string name="comentarios">Comentarios:</string>
+    <string name="nombreVacante">Nombre de la vacante:</string>
+    <string name="usernameTitulo">Username:</string>
+    <string name="username">Escribe aquí el username…</string>
+    <string name="contrasenia">Escribe nueva contraseña…</string>
+    <string name="tel">Escribe aquí el teléfono…</string>
+    <string name="direccion">Escribe aquí la dirección…</string>
+    <string name="contraTitulo">Contraseña:</string>
+    <string name="contraseniaTexto">*******</string>
+    <string name="telefonoTitulo">Teléfono:</string>
+    <string name="direccionTitulo">Dirección:</string>
+    <string name="destacado">Destacado:</string>
+    <string name="detalles">Detalles:</string>
+    <string name="nombre">Nombre:</string>
+    <string name="nombreCategoria">- Nombre -</string>
+    <string name="noEstablecido">[No Establecido]</string>
+    <string name="vacanteNoExiste">¡Vacante Inexistente!</string>
+    <string name="cero">0</string>
+    <string name="noHayFecha">¡No hay fecha!</string>
+    <string name="administrador">Administrador</string>
+    <string name="admin">Admin</string>
+    <string name="escribirNombre">Escribe el nombre…</string>
+    <string name="escribirSalario">Escribe aquí el salario…</string>
+    <string name="escribirDetalles">Escribe aquí los detalles…</string>
+
+    <string name="setTextExperiencia">Experiencia:</string>
+    <string name="setHintExperiencia">Escribe aquí tu experiencia…</string>
+    <string name="setTextEducacion">Educación:</string>
+    <string name="setHintEducacion">Escribe aquí tu educación…</string>
+    <string name="setTextWeb">Web:</string>
+    <string name="setHintWeb">Escribe aquí tu web…</string>
+    <string name="setTextSector">Sector:</string>
+    <string name="setHintSector">Escribe aquí tu sector…</string>
+    <string name="errorUsuario">¡Error: tipo de usuario desconocido!</string>
+
+    <string name="guardarCambios">Guardar</string>
+    <string name="editar">Editar</string>
+    <string name="aniadirOferta">Añadir</string>
+    <string name="enviarCV">Enviar CV</string>
+    <string name="meInteresa">Me interesa</string>
+    <string name="postularCV">Adjuntar CV</string>
+    <string name="descargarCV">Descargar CV</string>
+    <string name="btnEliminar">Eliminar Cuenta</string>
+    <string name="eliminarVacante">Eliminar</string>
+    <string name="editarVacante">Editar</string>
+    <string name="noCreada">¡Este correo ya está registrado!</string>
+    <string name="errorInesperado">¡No se ha podido crear la cuenta!</string>
+    <string name="errorLoginDato">¡No se ha podido iniciar sesión!</string>
+    <string name="usuarioNoReconocido">¡Error inesperado!</string>
+    <string name="errorContraActualizada">¡Ha ocurrido un error al intentar actualizar la contraseña!</string>
+    <string name="telefonoCaracteres">¡El teléfono debe contener 9 números!</string>
+    <string name="successCandidatoUpdate">¡Datos del CANDIDATO Actualizados Correctamente!</string>
+    <string name="successEmpresaUpdate">¡Datos de la EMPRESA Actualizados Correctamente!</string>
+    <string name="contraErrorActualizar">¡Error al actualizar la contraseña!</string>
+    <string name="btnCerrarSesion">Cerrar Sesión</string>
+    <string name="bienvenidaUsuario">¡Bienvenid@ a JobiFy!</string>
+    <string name="perfil">Perfil</string>
+    <string name="categoriaTitulo">Categorias</string>
+    <string name="destacados">Destacados</string>
+    <string name="usuarios">Usuarios</string>
+    <string name="confirmarEmail">Confirmar Email</string>
+    <string name="contacto">Ayuda</string>
+    <string name="acercade">Acerca de</string>
+    <string name="euro">€ /año</string>
+
+    <string name="tituloToolbar">JobiFy 🔹 Destacado</string>
+    <string name="tituloToolbarPerfil">JobiFy 🔹 Perfil</string>
+    <string name="tituloToolbarVacantes">JobiFy 🔹 Vacantes</string>
+    <string name="tituloToolbarSolicitudes">JobiFy 🔹 Solicitudes</string>
+    <string name="tituloToolbarUsuarios">JobiFy 🔹 Usuarios</string>
+    <string name="tituloToolbarCategorias">JobiFy 🔹 Categorías</string>
+
+    <string name="cerrarSesion">¿Estás seguro de que quieres cerrar sesión?</string>
+    <string name="borrarCuenta">¿Estás seguro de que quieres borrar la cuenta?\n             ¡Los cambios son permanentes!</string>
+    <string name="noDatos">¡No hay vacantes disponibles por el momento!</string>
+    <string name="noDatosCategoria">¡No hay categorías disponibles por el momento!</string>
+    <string name="completarCampos">¡Por favor, complete todos los campos obligatorios!</string>
+    <string name="permisoDenegado">¡No tienes permiso para descargar el Currículum!</string>
+
+    <string name="datosExitoVacante">¡Vacante agregada exitosamente!</string>
+    <string name="datosActualizadosVacante">¡Vacante actualizada exitosamente!</string>
+
+    <string name="inicio">Inicio</string>
+    <string name="vacantes">Vacantes</string>
+    <string name="solicitudes">Solicitudes</string>
+    <string name="empezar">> > ></string>
+    <string name="userNuevo">Usuario Nuevo</string>
+    <string name="tengoCuenta">Tengo Cuenta</string>
+    <string name="Administrador">Admin</string>
+    <string name="exitoAdmin">¡Iniciaste sesión como administrador!</string>
+    <string name="exitoRegistrarAdmin">¡Te has registrado como administrador!</string>
+    <string name="errorRegistrar">¡Error al registrarse!</string>
+    <string name="candidato">Candidato</string>
+    <string name="empresa">Empresa</string>
+    <string name="textoAyuda">♦ ¿Cómo publicar una oferta de trabajo?\n\nPara publicar una oferta de trabajo, primero debes estar registrado como empresa en la plataforma. Si ya tienes una cuenta, inicia sesión y haz clic en el botón "Publicar oferta de trabajo". Completa el formulario con los detalles de la oferta y haz clic en "Publicar". \n\n♦ ¿Cómo buscar ofertas de trabajo?\n\nPara buscar ofertas de trabajo, puedes utilizar la barra de búsqueda en la página principal de ofertas destacadas. También puedes guardar búsquedas y recibir alertas de nuevas ofertas que cumplan con tus criterios.\n\n ♦ ¿Cómo puedo mandar mi CV a una oferta?\n\nPara aplicar a una oferta de trabajo, debes tener una cuenta de usuario candidato en nuestra plataforma. Haz clic en la oferta que te interesa y sigue las instrucciones para enviar tu solicitud. La empresa recibirá tu CV y cualquier otra información adicional que hayas proporcionado.</string>
+    <string name="ayudaTitulo">🔹 Ayuda 🔹</string>
+    <string name="acercaDeTitulo">🔹 Acerca de 🔹</string>
+    <string name="textoAcercaDe">🔸 Nuestra plataforma de gestión de ofertas de empleo es una iniciativa que tiene como objetivo facilitar la conexión entre empresas y profesionales en búsqueda de empleo.\n\n 🔸 Con una amplia variedad de ofertas disponibles en diferentes categorías y sectores, nuestro objetivo es ofrecer una experiencia de usuario intuitiva y eficiente para satisfacer las necesidades de todos nuestros usuarios. \n\n🔸 Nos esforzamos por ofrecer un servicio de alta calidad y nos comprometemos a garantizar la privacidad y seguridad de toda la información y datos que se manejan en nuestra plataforma. Si tienes alguna sugerencia o comentario sobre cómo podemos mejorar nuestro servicio, no dudes en ponerte en contacto con nosotros.\n\n¡Gracias por elegir nuestra plataforma para encontrar tu próximo empleo o candidato ideal!</string>
+
+    <string name="nombreAsterisco">Nombre *</string>
+    <string name="salarioAsterisco">Salario *</string>
+    <string name="categoriaAsterisco">Categoría *</string>
+    <string name="usernameHint">Email</string>
+    <string name="passwordHint">Contraseña</string>
+    <string name="hintLogin">Iniciar Sesión</string>
+    <string name="btnAgregarVacante">Añadir Vacante</string>
+    <string name="btnAgregarCategoria">Añadir Categoria</string>
+    <string name="hintRegister">Registrarse</string>
+    <string name="olvidarPassword">¿Olvidaste tu contraseña?</string>
+    <string name="tituloRegistrar">¿Aún no estás en JobiFy? Regístrate</string>
+    <string name="tituloRegistrarse">¡Regístrate!</string>
+    <string name="esMiembro">¿Ya eres miembro? Iniciar sesión</string>
+    <string name="content">Logotipo</string>
+    <string name="bienvenidaIntro">¡Bienvenido a JobiFy!</string>
+
+</resources>

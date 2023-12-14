@@ -1,0 +1,3 @@
+Hay una carpeta que se llama "Si no funciona prueba esto", en el cual he metido el proyecto pero hecho con
+Android Studio Dolphin, por si no funciona el otro proyecto que está modificado con Android Studio Flamingo y
+tiene el AGP más actualizado.

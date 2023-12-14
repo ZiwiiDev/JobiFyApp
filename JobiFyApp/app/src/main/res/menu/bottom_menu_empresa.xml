@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/vacantes"
+        android:icon="@mipmap/iconovacante_foreground"
+        android:title="@string/vacantes" />
+
+    <item
+        android:id="@+id/solicitudes"
+        android:icon="@mipmap/iconosolicitudes_foreground"
+        android:title="@string/solicitudes" />
+    
+</menu>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "177645370953",
+    "project_id": "jobify-2023",
+    "storage_bucket": "jobify-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177645370953:android:bfd0ced5c9d86ac1b68998",
+        "android_client_info": {
+          "package_name": "com.example.jobifyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177645370953-0e2j7oehk4alnjqqsb8toesqg445edd8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jobifyapp",
+            "certificate_hash": "ad3dda98af957627f48041842677a6456c27e4e0"
+          }
+        },
+        {
+          "client_id": "177645370953-1bkk0nti86q1ih0s5a8bho7pjfiu65lm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkYWajGyP-BwJlj9UiUevb53NLgyDGz5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177645370953-1bkk0nti86q1ih0s5a8bho7pjfiu65lm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

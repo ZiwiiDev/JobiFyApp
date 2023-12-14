@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/perfil"
+        android:icon="@mipmap/perfilicono_foreground"
+        android:title="@string/perfil"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/ayuda"
+        android:title="@string/contacto">
+    </item>
+
+    <item android:id="@+id/acercaDe"
+        android:title="@string/acercade">
+    </item>
+
+    <item android:id="@+id/btnLogout"
+        android:title="@string/btnCerrarSesion">
+    </item>
+
+</menu>

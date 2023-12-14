@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JobiFy</string>
+
+    <string name="hintBarraBusquedaDestacado">Search for a vacancy…</string>
+    <string name="hintBarraBusquedeSolicitud">Find a request…</string>
+    <string name="hintBarraBusquedeUsuario">Search for a user…</string>
+    <string name="hintBarraBusquedeCategoria">Search a category…</string>
+
+    <string name="destacadas">🔹 Featured 🔹</string>
+    <string name="ofertas">🔹 Vacancies 🔹</string>
+    <string name="solicitudesTitulo">🔹 Requests 🔹</string>
+    <string name="usuariosTitulo">🔹 Users 🔹</string>
+    <string name="categorias">🔹 Categories 🔹</string>
+
+    <string name="agregarOferta">🔹 Add New Vacancy 🔹</string>
+    <string name="actualizarOferta">🔹 Update Vacancy 🔹</string>
+    <string name="agregarCategoria">🔹 Add New Category 🔹</string>
+    <string name="editarCategoria">🔹 Edit Category 🔹</string>
+
+    <string name="actualizar">Update</string>
+    <string name="restPass">Send</string>
+    <string name="btnVolver">Return</string>
+
+    <string name="categoriaExiste">The category already exists!</string>
+    <string name="errorCategoriaInsertar">Error inserting category!</string>
+    <string name="vacanteExiste">The vacancy already exists!</string>
+    <string name="actualizaVacante">Updated vacancy!</string>
+    <string name="borrarVacante">Vacancy not found!</string>
+    <string name="errorCategoria">Error getting selected category!</string>
+    <string name="spinnerVacio">No categories available!</string>
+    <string name="spinnerNoSeleccionado">No category selected!</string>
+    <string name="categoriaDesconocida">Unknown category!</string>
+    <string name="categoriaVacia">The selected category is empty!</string>
+    <string name="agregarCorrectamenteCategoria">Category added successfully!</string>
+    <string name="errorAgregarCategoria">The name entered is not correct!</string>
+    <string name="editarCorrectamenteCategoria">Category edited successfully!</string>
+    <string name="categoriaEliminada">Category removed!</string>
+    <string name="trabajoTitulo">Find the job of your dreams!</string>
+    <string name="binvenida">Log in!</string>
+    <string name="errorLogin">The username or password is incorrect!</string>
+    <string name="correctoLogin">You have successfully logged in!</string>
+    <string name="correoRestContra">Enter the email with which you are registered in JobiFy and you will receive an email to reset your password.</string>
+    <string name="needEmail">You have to insert a valid email!</string>
+    <string name="coincidirEmail">Do not match!</string>
+    <string name="invalidEmail">This email is not recognized, it may not be registered in the application!</string>
+    <string name="noValidoEmail">The email is wrongly formulated!</string>
+    <string name="emailActualizado">The email has been updated successfully!</string>
+    <string name="errorActualizarEmail">An error occurred while trying to update the email!</string>
+    <string name="contraCorta">The password is too short (minimum 6 characters)!</string>
+    <string name="needPassword">You have to insert the password!</string>
+    <string name="mailsend">Mail sent successfully!</string>
+    <string name="cuentaCreada">Account created!</string>
+    <string name="eliminadaVacante">Vacancy Eliminated!</string>
+
+    <string name="tituloPerfilBorrar">· Confirm Delete Account ·</string>
+    <string name="tituloVacanteBorrar">· Confirm Delete Vacancy ·</string>
+    <string name="tituloUsuarioBorrar">· Confirm Delete User ·</string>
+    <string name="tituloSolicitudBorrar">· Confirm Delete Request ·</string>
+    <string name="tituloSeleccionarImagen">· Change image ·</string>
+    <string name="resp">· Restore password ·</string>
+
+    <string name="confirmarBorradoPerfil">The ACCOUNT will be permanently deleted! Are you sure you want to do it?</string>
+    <string name="confirmarBorradoVacante">The VACANCY will be permanently deleted! Are you sure you want to do it?</string>
+    <string name="confirmarBorradoSolicitud">The REQUEST will be permanently deleted! Are you sure you want to do it?</string>
+    <string name="confirmarBorradoUsuario">The USER will be permanently deleted! Are you sure you want to do it?</string>
+
+    <string name="seleccionarImagen">Select an image from:</string>
+    <string name="si">Yeah</string>
+    <string name="no">No</string>
+    <string name="camara">Camera</string>
+    <string name="galería">Gallery</string>
+
+    <string name="usuario">Name and surname</string>
+    <string name="categoria">Category:</string>
+    <string name="correctoEliminarCuenta">Account deleted successfully!</string>
+    <string name="errorEliminarCuenta">Error deleting account. Try again!</string>
+    <string name="cuentaEliminarError">No user account found!</string>¡
+
+    <string name="avisoSpinner">Choose a category…</string>
+    <string-array name="spinnerCategoria">
+        <item>Programming</item>
+        <item>Design</item>
+    </string-array>
+    <string-array name="opciones_categoria">
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+
+    <string name="solicitudCorrecto">Request sent successfully!</string>
+    <string name="correctoCerrarSesion">You have successfully logged out!</string>
+    <string name="yaDescargadoCV">The Curriculum has already been downloaded!</string>
+    <string name="descargarCVcorrecto">Resume downloaded successfully!</string>
+    <string name="noCorrectoCV">An error occurred while trying to download the Curriculum!</string>
+    <string name="errorSolicitud">Your CV could not be sent!</string>
+    <string name="solicitudError">You must select an attachment!</string>
+    <string name="nombreCandidato">Candidate Name:</string>
+    <string name="emailCandidato">Email:</string>
+    <string name="emailCandidatoCardView">Candidate email:</string>
+    <string name="numSolicitud">Request number:</string>
+    <string name="fecha">Publication date:</string>
+    <string name="fechaSolicitud">Shipping date:</string>
+    <string name="salario">Salary:</string>
+    <string name="comentarios">Comments:</string>
+    <string name="nombreVacante">Vacancy name:</string>
+    <string name="usernameTitulo">Username:</string>
+    <string name="username">Write here the username…</string>
+    <string name="contrasenia">Type new password…</string>
+    <string name="tel">Write the phone here…</string>
+    <string name="direccion">Write the address here…</string>
+    <string name="contraTitulo">Password:</string>
+    <string name="contraseniaTexto">*******</string>
+    <string name="telefonoTitulo">Phone:</string>
+    <string name="direccionTitulo">Address:</string>
+    <string name="destacado">Featured:</string>
+    <string name="detalles">Details:</string>
+    <string name="nombre">Name:</string>
+    <string name="nombreCategoria">- Name -</string>
+    <string name="noEstablecido">[Not established]</string>
+    <string name="vacanteNoExiste">¡Non-existent vacancy!</string>
+    <string name="cero">0</string>
+    <string name="noHayFecha">¡No date!</string>
+    <string name="administrador">Administrator</string>
+    <string name="admin">Admin</string>
+    <string name="escribirNombre">Write here the name…</string>
+    <string name="escribirSalario">Write here the salary…</string>
+    <string name="escribirDetalles">Write the details here…</string>
+
+    <string name="setTextExperiencia">Experience:</string>
+    <string name="setHintExperiencia">Write here your experience…</string>
+    <string name="setTextEducacion">Education:</string>
+    <string name="setHintEducacion">Write here your education…</string>
+    <string name="setTextWeb">Web:</string>
+    <string name="setHintWeb">Write your website here…</string>
+    <string name="setTextSector">Sector:</string>
+    <string name="setHintSector">Write here your sector…</string>
+    <string name="errorUsuario">Error: unknown user type!</string>
+
+    <string name="guardarCambios">Save</string>
+    <string name="editar">Edit</string>
+    <string name="aniadirOferta">Add</string>
+    <string name="enviarCV">Send CV</string>
+    <string name="meInteresa">Interested</string>
+    <string name="postularCV">Attach CV</string>
+    <string name="descargarCV">Download CV</string>
+    <string name="btnEliminar">Delete account</string>
+    <string name="eliminarVacante">Delete</string>
+    <string name="editarVacante">Edit</string>
+    <string name="noCreada">This email is already registered!</string>
+    <string name="errorInesperado">Failed to create account!</string>
+    <string name="errorLoginDato">Could not login!</string>
+    <string name="usuarioNoReconocido">Unexpected error!</string>
+    <string name="errorContraActualizada">An error occurred while trying to update the password!</string>
+    <string name="telefonoCaracteres">The phone must contain 9 numbers!</string>
+    <string name="successCandidatoUpdate">CANDIDATE Data Correctly Updated!</string>
+    <string name="successEmpresaUpdate">COMPANY Data Correctly Updated!</string>
+    <string name="contraErrorActualizar">Failed to update password!</string>
+    <string name="btnCerrarSesion">Sign out</string>
+    <string name="bienvenidaUsuario">Welcome to JobiFy!</string>
+    <string name="perfil">Profile</string>
+    <string name="categoriaTitulo">Categories</string>
+    <string name="destacados">Featured</string>
+    <string name="usuarios">Users</string>
+    <string name="confirmarEmail">Confirm Email</string>
+    <string name="contacto">Help</string>
+    <string name="acercade">About</string>
+    <string name="euro">€ /year</string>
+
+    <string name="tituloToolbar">JobiFy 🔹 Featured</string>
+    <string name="tituloToolbarPerfil">JobiFy 🔹 Profile</string>
+    <string name="tituloToolbarVacantes">JobiFy 🔹 Vacancies</string>
+    <string name="tituloToolbarSolicitudes">JobiFy 🔹 Requests</string>
+    <string name="tituloToolbarUsuarios">JobiFy 🔹 Users</string>
+    <string name="tituloToolbarCategorias">JobiFy 🔹 Categories</string>
+
+    <string name="cerrarSesion">Are you sure you want to sign out?</string>
+    <string name="borrarCuenta">Are you sure you want to delete the account?\n             The changes are permanent!</string>
+    <string name="noDatos">There are no vacancies available at the moment!</string>
+    <string name="noDatosCategoria">There are no categories available at the moment!</string>
+    <string name="completarCampos">Please fill in all the required fields!</string>
+    <string name="permisoDenegado">You do not have permission to download the Curriculum!</string>
+
+    <string name="datosExitoVacante">Vacancy successfully added!</string>
+    <string name="datosActualizadosVacante">Vacancy successfully updated!</string>
+
+    <string name="inicio">Home</string>
+    <string name="vacantes">Vacancies</string>
+    <string name="solicitudes">Requests</string>
+    <string name="empezar">> > ></string>
+    <string name="userNuevo">New User</string>
+    <string name="tengoCuenta">I have an account</string>
+    <string name="Administrador">Admin</string>
+    <string name="exitoAdmin">You are logged in as administrator!</string>
+    <string name="exitoRegistrarAdmin">You have registered as an administrator!</string>
+    <string name="errorRegistrar">Failed to register!</string>
+    <string name="candidato">Candidate</string>
+    <string name="empresa">Company</string>
+    <string name="textoAyuda">♦ How to post a job offer?\n\nTo post a job offer, you must first be registered as a company on the platform. If you already have an account, log in and click the "Post Job Offer" button. Complete the form with the offer details and click "Publish". \n\n♦ How to search for job offers?\n\nTo search for job offers, you can use the search bar on the main page of featured offers. You can also save searches and receive alerts for new offers that meet your criteria.\n\n ♦ How can I send my CV to an offer?\n\nTo apply for a job offer, you must have a candidate user account at our platform. Click on the offer you are interested in and follow the instructions to submit your request. The company will receive your CV and any other additional information you have provided.</string>
+    <string name="ayudaTitulo">🔹 Help 🔹</string>
+    <string name="acercaDeTitulo">🔹 About 🔹</string>
+    <string name="textoAcercaDe">🔸 Our job offers management platform is an initiative that aims to facilitate the connection between companies and professionals in search of employment.\n\n 🔸 With a wide variety of offers available in different categories and sectors, our goal is to offer an intuitive and efficient user experience to meet the needs of all our users. \n\n🔸 We strive to offer a high-quality service and are committed to guaranteeing the privacy and security of all information and data handled on our platform. If you have any suggestions or comments on how we can improve our service, please do not hesitate to contact us.\n\nThank you for choosing our platform to find your next ideal job or candidate!</string>
+
+    <string name="usernameHint">Email</string>
+    <string name="passwordHint">Password</string>
+    <string name="hintLogin">Log in</string>
+    <string name="btnAgregarVacante">Add Vacancy</string>
+    <string name="nombreAsterisco">Name *</string>
+    <string name="salarioAsterisco">Salary *</string>
+    <string name="categoriaAsterisco">Category *</string>
+    <string name="hintRegister">Sign up</string>
+    <string name="olvidarPassword">Did you forget your password?</string>
+    <string name="tituloRegistrar">Still not in JobiFy? Sign up</string>
+    <string name="btnAgregarCategoria">Add Category</string>
+    <string name="tituloRegistrarse">Sign up!</string>
+    <string name="esMiembro">Already a member? Log in</string>
+    <string name="content">Logo</string>
+    <string name="bienvenidaIntro">Welcome to JobiFy!</string>
+
+</resources>

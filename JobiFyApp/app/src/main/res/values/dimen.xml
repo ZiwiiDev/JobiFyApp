@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Aquí es donde se definen las dimensiones para elementos en el diseño de la interfaz de usuario.
+Por ejemplo, puedes definir el tamaño de las letras para los textos en distintos tamaños de pantalla,
+el tamaño de las imágenes, el padding para los elementos, entre otras cosas. -->
+
+<resources>
+    <dimen name="text_size_large">28sp</dimen>
+    <dimen name="default_padding">40dp</dimen>
+    <dimen name="textoGrande">30sp</dimen>
+</resources>

@@ -1,0 +1,78 @@
+Al iniciar la app tenemos la pantalla de inicio, donde pulsando sobre el botón que tenemos en la parte inferior
+nos dirige a una pantalla para elegir si somos un usuario nuevo o tenemos cuenta, además podemos registrarnos como
+usuario administrador en la parte inferior izquierda en el ImageView (sólo se registra la primera vez que pulsemos,
+si cerramos sesión y le damos otra vez al ImageView se loguea). Si le damos a "usuario nuevo" nos pedirá elegir
+entre candidato (profesional) o empresa (RRHH). Si queremos registrarnos como CANDIDATO le damos click al ImageView y
+nos lleva a la pantalla de registrar un usuario, nos pedirá rellenar los datos con el email y la contraseña (la
+contraseña no se muestra pero si queremos mostrarla le damos al ImageView del ojo, luego podemos ocultarla al darle
+otra vez), también podemos darle al texto que pregunta si ya somos miembros, que nos dirige a la pantalla de login.
+
+Al registrarnos nos lleva a la pantalla de vacantes destacadas. Nos da la bienvenida junto al email del usuario.
+En la parte superior tenemos un menú que nos permite dirigirnos a la pantalla de "ayuda" por si tenemos 
+alguna duda sobre la app, la pantalla de "acerca de" donde nos informa sobre la app, y podemos cerrar la 
+sesión del usuario actual (se necesita afirmar que quieres cerrar sesión). También podemos darle al icono de 
+perfil que nos encontramos en el menú al lado de los tres puntitos para dirigirnos a los datos de nuestro 
+usuario, en la parte inferior tenemos un menú de navegación para volver a la pantalla de 
+vacantes destacadas, o a la pantalla de vacantes (todas, ya sean destacadas o no). También tenemos un menú en la 
+parte superior donde podremos editar los datos del usuario (que nos lleva a otra pantalla para ello), eliminar la
+cuenta (que la elimina de forma predeterminada, por eso es necesario la doble afirmación), o cerrar sesión del 
+usuario actual (se necesita afirmar que quieres cerrar sesión). Si queremos editar los datos del usuario presionamos
+en "editar" en el menú superior y ahí podemos editar los datos que nosotros queramos (ninguno es obligatorio). Si
+el usuario es de tipo CANDIDATO aparecerá que pongamos los datos de "experiencia" y "educación", si el usuario
+es una EMPRESA aparecerá que pongamos los datos de "sector" y "web". Si le damos a guardar se guardan los datos del
+usuario y al volver a la pantalla de perfil se actualizan los datos con la información introducida anteriormente. 
+
+Si volvemos vamos a la pantalla de vacantes destacadas nos aparecerán sólo las vacantes que estén destacadas 
+(si le damos clic a una vacante nos llevará a una pantalla donde podremos ver todos sus detalles, así como enviar 
+nuestro CV (en formato .pdf) si nos interesa postular por esa vacante). En la parte inferior tenemos otro menú de 
+navegación dónde podemos dirigirnos a la pantalla de vacantes. En esta pantalla aparecerán todas las vacantes ya estén
+destacadas o no (al igual al pulsar sobre alguna vacante determinada nos llevará a la pantalla de detalles de la
+vacante donde podemos enviar nuestro CV). Si enviamos un CV se crea una solicitud nueva que podrá ver la empresa
+en la pantalla de "solicitudes". También podemos buscar una vacante por su nombre tanto en la pantalla de destacadas
+como en la de vacantes (los caracteres del nombre deben estar en orden, por ej: si se llama "Programador Java" y busco
+"prog" saldrá, pero si busco "prg" no sale).
+
+Cerramos sesión y vamos a la pantalla de inicio, ahora vamos a elegir crear un usuario EMPRESA, es el mismo proceso
+que con el CANDIDATO. También podemos loguearnos con el usuario creado, en la pantalla de login aparece un texto
+de si olvidamos nuestra contraseña se nos abre un pop-up que nos pide el email y la confirmación del email, si existe
+un usuario con ese email registrado se le envía un correo donde le permite cambiar la contraseña. También podemos
+presionar sobre el texto que dice si no estás registrado en la app y te dirige a la elección del tipo de usuario
+para registrar.
+
+Al crear nuestro usuario de tipo EMPRESA nos dirige a la pantalla de vacantes destacadas, es prácticamente lo mismo
+que tiene el usuario CANDIDATO, con la diferencia de que en el menú inferior nos permite dirigirnos a la pantalla de
+solicitudes. Al igual que el usuario CANDIDATO podemos presionar sobre una vacante y podremos ver sus detalles, con
+la única diferencia de que el usuario EMPRESA no podrá enviar su CV para postular a la vacante, como es lógico. En
+la pantalla de vacantes podremos editar la vacante si pinchamos sobre el lápiz (ningún campo es obligatorio editar),
+si cambiamos el estado de destacado a no destacado de la vacante ya no aparecerá en la pantalla de vacantes destacadas,
+al igual si lo hacemos al revés, lo mismo con la categoría, salario y detalles). También podremos borrar la vacante
+pulsando sobre el contener de la basura (SI BORRAMOS UNA VACANTE Y TIENE SOLICITUDES DE ALGÚN CANDIDATO SE BORRAN
+TAMBIÉN). En la parte inferior derecha tenemos un botón para añadir una nueva vacante (hay un asterisco para los
+camopos que son obligatorios rellenar, y lo mismo que antes, si la destacamos aparecerá tanto en la pantalla de
+vacantes como en la de destacadas.) También podremos buscar por el nombre de la vacante, como con el usuario CANDIDATO.
+Si nos dirigimos a la pantalla de solicitudes podremos ver las solicitudes que nos ha mandado un usuario CANDIDATO
+para una vacante (podremos ver la fecha en la que ha mandado la solicitud, el nombre de la vacante a la que postula y
+podremos descargar el CV que nos ha mandado dando clic sobre la imagen del sobre, se guardará como nombre de la vacante,
+luego el número de la solicitud y en formato .pdf en "descargas" de nuestro dispositivo).
+En el menú superior podremos también ver los datos de nuestra empresa, editarlos o eliminar la cuenta. (para el usuario
+EMPRESA nos sale "sector" y "web" de campos, en vez de "educación" y "experiencia"). Esto aparece porque EMPRESA y
+CANDIDATO son una especialización de USUARIO, he utilizado herencia.
+
+Si al iniciar la app dejamos nuestro usuario logueado, no nos llevará a la pantalla de inicio para registrarnos o
+loguearnos, sino que nos dirige directamente a la pantalla de vacantes destacadas (si cerramos sesión sí nos dirigirá
+a la pantalla para registrarnos o loguearnos).
+
+Y por último si nos registramos como admin, o nos logueamos, podremos hacer todo lo permitido en la app. Nos aparecerá
+en el menú superior nuestro perfil, y todo lo que podemos ver con los demás usuarios. En el menú inferior podremos
+dirigirnos a las vacantes, las categorías o los usuarios que se han registrado en la app. Si le damos a una vacante
+podremos ver los detalles pero no postular, obviamente. En la pantalla de vacantes podremos editar las vacantes, o
+eliminarlas. En la pantalla de categorías podemos ver todas las categorías que hay en la app, así cómo agregar una nueva
+categoría en el botón inferior derecho (sólo nos pedirá el nombre). Se puede buscar categorías por nombre.
+En la pantalla de usuarios aparecerán todos  los usuarios registrados en la app (si aparece algún dato como
+"[No Establecido]" es porque al registrar a un usuario los datos están en blanco, si el usuario modifica estos datos
+se modificarán también en el adaptador). Los usuarios podremos buscarlos por nombre, email o username.
+
+Las nuevas categorías creadas aparecerán a la hora de elegir la categoría al agregar o editar una nueva vacante.
+Si al agregar una categoría o vacante ya existe en la base de datos sale un toast y no se crea.
+Al establecer el username del usuario y tiene espacios o mayúsculas, estás se omiten (ej: "Pepito Flores" al guardarlo
+se guarda como "pepitoflores".

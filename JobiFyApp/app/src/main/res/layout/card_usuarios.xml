@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/cardView"
+    app:cardCornerRadius="25dp"
+    app:cardElevation="2dp"
+    android:id="@+id/cardViewUsuarios"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/adapter_categorias"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/nombreUsuarioCardViewTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="left"
+            android:text="Texto"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/usernameUsuarioCardViewTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nombreUsuarioCardViewTitulo"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="@string/usernameTitulo"
+            android:textSize="12sp"
+            android:typeface="serif"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/usernameUsuarioCardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nombreUsuarioCardViewTitulo"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toEndOf="@+id/usernameUsuarioCardViewTitulo"
+            android:gravity="left"
+            android:text="@string/noEstablecido"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/emailUsuarioCardViewTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/usernameUsuarioCardViewTitulo"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="right"
+            android:textColor="@color/white"
+            android:text="@string/emailCandidato"
+            android:textSize="12sp"
+            android:typeface="serif"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/emailUsuarioCardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/usernameUsuarioCardView"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toEndOf="@+id/emailUsuarioCardViewTitulo"
+            android:gravity="left"
+            android:text="Texto"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            tools:ignore="RtlHardcoded" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
